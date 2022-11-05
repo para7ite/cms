@@ -48,6 +48,7 @@ public class Home extends javax.swing.JFrame {
         btnNewProduct = new javax.swing.JButton();
         btnViewDeleteProduct = new javax.swing.JButton();
         btnVerifyUser = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -58,7 +59,7 @@ public class Home extends javax.swing.JFrame {
                 btnLogoutActionPerformed(evt);
             }
         });
-        getContentPane().add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 390, -1, -1));
+        getContentPane().add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
 
         btnPlaceOrder.setText("Place Order");
         btnPlaceOrder.addActionListener(new java.awt.event.ActionListener() {
@@ -66,7 +67,7 @@ public class Home extends javax.swing.JFrame {
                 btnPlaceOrderActionPerformed(evt);
             }
         });
-        getContentPane().add(btnPlaceOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 240, -1, -1));
+        getContentPane().add(btnPlaceOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
 
         btnViewBillOrder.setText("View Bill and Order Placed");
         btnViewBillOrder.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +75,7 @@ public class Home extends javax.swing.JFrame {
                 btnViewBillOrderActionPerformed(evt);
             }
         });
-        getContentPane().add(btnViewBillOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 240, -1, -1));
+        getContentPane().add(btnViewBillOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 470, -1, -1));
 
         btnChangePassword.setText("Change Password");
         btnChangePassword.addActionListener(new java.awt.event.ActionListener() {
@@ -82,7 +83,7 @@ public class Home extends javax.swing.JFrame {
                 btnChangePasswordActionPerformed(evt);
             }
         });
-        getContentPane().add(btnChangePassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 390, -1, -1));
+        getContentPane().add(btnChangePassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, -1, -1));
 
         btnChangeSecQues.setText("Change Security Question");
         btnChangeSecQues.addActionListener(new java.awt.event.ActionListener() {
@@ -90,7 +91,7 @@ public class Home extends javax.swing.JFrame {
                 btnChangeSecQuesActionPerformed(evt);
             }
         });
-        getContentPane().add(btnChangeSecQues, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, -1, -1));
+        getContentPane().add(btnChangeSecQues, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, -1, -1));
 
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
@@ -98,7 +99,7 @@ public class Home extends javax.swing.JFrame {
                 btnExitActionPerformed(evt);
             }
         });
-        getContentPane().add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 390, -1, -1));
+        getContentPane().add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 520, -1, -1));
 
         btnManageCategory.setText("Manage Category");
         btnManageCategory.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +107,7 @@ public class Home extends javax.swing.JFrame {
                 btnManageCategoryActionPerformed(evt);
             }
         });
-        getContentPane().add(btnManageCategory, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 670, -1, -1));
+        getContentPane().add(btnManageCategory, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 600, -1, -1));
 
         btnNewProduct.setText("New Product");
         btnNewProduct.addActionListener(new java.awt.event.ActionListener() {
@@ -114,7 +115,7 @@ public class Home extends javax.swing.JFrame {
                 btnNewProductActionPerformed(evt);
             }
         });
-        getContentPane().add(btnNewProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 570, -1, -1));
+        getContentPane().add(btnNewProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 620, -1, -1));
 
         btnViewDeleteProduct.setText("View Edit and Delete Product");
         btnViewDeleteProduct.addActionListener(new java.awt.event.ActionListener() {
@@ -122,7 +123,7 @@ public class Home extends javax.swing.JFrame {
                 btnViewDeleteProductActionPerformed(evt);
             }
         });
-        getContentPane().add(btnViewDeleteProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 570, 190, -1));
+        getContentPane().add(btnViewDeleteProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 600, 190, -1));
 
         btnVerifyUser.setText("VerifyUser");
         btnVerifyUser.addActionListener(new java.awt.event.ActionListener() {
@@ -130,7 +131,10 @@ public class Home extends javax.swing.JFrame {
                 btnVerifyUserActionPerformed(evt);
             }
         });
-        getContentPane().add(btnVerifyUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 570, 98, -1));
+        getContentPane().add(btnVerifyUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 600, 98, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/ccn_home.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -225,5 +229,6 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JButton btnVerifyUser;
     private javax.swing.JButton btnViewBillOrder;
     private javax.swing.JButton btnViewDeleteProduct;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

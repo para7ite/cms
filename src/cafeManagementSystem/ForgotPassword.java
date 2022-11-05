@@ -68,53 +68,54 @@ public class ForgotPassword extends javax.swing.JFrame {
         btnExit = new javax.swing.JButton();
         btnSignUp = new javax.swing.JButton();
         btnLogin = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("Email");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 270, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 260, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("Security Question");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 310, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 300, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setText("Your Answer");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 350, 121, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 340, 121, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setText("New Password");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 390, 100, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 380, 100, -1));
 
         txtEmail.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtEmailKeyReleased(evt);
             }
         });
-        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 270, 200, -1));
+        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 260, 200, -1));
 
         txtSecQues.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtSecQuesKeyReleased(evt);
             }
         });
-        getContentPane().add(txtSecQues, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 310, 200, -1));
+        getContentPane().add(txtSecQues, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 300, 200, -1));
 
         txtAns.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtAnsKeyReleased(evt);
             }
         });
-        getContentPane().add(txtAns, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 350, 200, -1));
+        getContentPane().add(txtAns, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 340, 200, -1));
 
         txtNewPassword.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtNewPasswordKeyReleased(evt);
             }
         });
-        getContentPane().add(txtNewPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 390, 200, -1));
+        getContentPane().add(txtNewPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 380, 200, -1));
 
         btnSearch.setText("Search");
         btnSearch.addActionListener(new java.awt.event.ActionListener() {
@@ -122,7 +123,7 @@ public class ForgotPassword extends javax.swing.JFrame {
                 btnSearchActionPerformed(evt);
             }
         });
-        getContentPane().add(btnSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 270, -1, -1));
+        getContentPane().add(btnSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 490, -1, -1));
 
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -130,10 +131,10 @@ public class ForgotPassword extends javax.swing.JFrame {
                 btnUpdateActionPerformed(evt);
             }
         });
-        getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 450, -1, -1));
+        getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 440, -1, -1));
 
         btnClear.setText("Clear");
-        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 450, -1, -1));
+        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 440, -1, -1));
 
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
@@ -141,7 +142,7 @@ public class ForgotPassword extends javax.swing.JFrame {
                 btnExitActionPerformed(evt);
             }
         });
-        getContentPane().add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 450, -1, -1));
+        getContentPane().add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 440, -1, -1));
 
         btnSignUp.setText("SignUp");
         btnSignUp.addActionListener(new java.awt.event.ActionListener() {
@@ -149,7 +150,7 @@ public class ForgotPassword extends javax.swing.JFrame {
                 btnSignUpActionPerformed(evt);
             }
         });
-        getContentPane().add(btnSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 500, -1, -1));
+        getContentPane().add(btnSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 490, -1, -1));
 
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -157,7 +158,11 @@ public class ForgotPassword extends javax.swing.JFrame {
                 btnLoginActionPerformed(evt);
             }
         });
-        getContentPane().add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 500, -1, -1));
+        getContentPane().add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 490, -1, -1));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/ccn_forgot.png"))); // NOI18N
+        jLabel5.setText("jLabel5");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -270,6 +275,7 @@ public class ForgotPassword extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JTextField txtAns;
     private javax.swing.JTextField txtEmail;
     private javax.swing.JPasswordField txtNewPassword;

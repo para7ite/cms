@@ -154,19 +154,19 @@ public class PlaceOrder extends javax.swing.JFrame {
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 90, 30));
 
         jLabel2.setText("Bill Id");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 107, 20));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, 107, 20));
 
         jLabel3.setText("Customer");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 160, 107, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 107, -1));
 
         jLabel4.setText("Name");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 200, 37, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 37, -1));
 
         jLabel6.setText("Mobile Number");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 260, 94, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 310, 94, -1));
 
         jLabel8.setText("Email");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 37, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 37, -1));
 
         txtCusName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,34 +178,34 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtCusNameKeyReleased(evt);
             }
         });
-        getContentPane().add(txtCusName, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 220, 130, -1));
+        getContentPane().add(txtCusName, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 130, -1));
 
         txtCusMobileNo.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtCusMobileNoKeyReleased(evt);
             }
         });
-        getContentPane().add(txtCusMobileNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 290, 130, -1));
+        getContentPane().add(txtCusMobileNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 340, 130, -1));
 
         txtCusEmail.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtCusEmailKeyReleased(evt);
             }
         });
-        getContentPane().add(txtCusEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 360, 130, -1));
+        getContentPane().add(txtCusEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 410, 130, -1));
 
         jLabel5.setText("Category");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 160, 69, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, 69, -1));
 
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, 144, -1));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 170, 144, -1));
 
         jLabel7.setText("Search");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 106, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 210, 106, -1));
 
         txtSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -217,7 +217,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtSearchKeyReleased(evt);
             }
         });
-        getContentPane().add(txtSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 260, 150, 20));
+        getContentPane().add(txtSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 240, 140, 20));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -237,47 +237,47 @@ public class PlaceOrder extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 310, 240, 180));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 290, 240, 180));
 
         jLabel9.setText("Name");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 130, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, -1, -1));
 
         txtProName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtProNameActionPerformed(evt);
             }
         });
-        getContentPane().add(txtProName, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 160, 150, -1));
+        getContentPane().add(txtProName, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 140, 150, -1));
 
         jLabel10.setText("Price");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 130, -1, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 110, -1, -1));
 
         txtProPrice.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtProPriceActionPerformed(evt);
             }
         });
-        getContentPane().add(txtProPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 160, 120, -1));
+        getContentPane().add(txtProPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 130, 120, -1));
 
         jLabel11.setText("Quantity");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 200, -1, 20));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 180, -1, 20));
 
         jLabel12.setText("Total");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 200, -1, -1));
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 170, -1, -1));
 
         txtProTotal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtProTotalActionPerformed(evt);
             }
         });
-        getContentPane().add(txtProTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(1144, 230, 120, -1));
+        getContentPane().add(txtProTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 200, 120, -1));
 
         jSpinner1.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 jSpinner1StateChanged(evt);
             }
         });
-        getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 230, 150, -1));
+        getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 210, 150, -1));
 
         btnClose.setText("Close");
         btnClose.addActionListener(new java.awt.event.ActionListener() {
@@ -285,7 +285,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnCloseActionPerformed(evt);
             }
         });
-        getContentPane().add(btnClose, new org.netbeans.lib.awtextra.AbsoluteConstraints(1210, 30, -1, -1));
+        getContentPane().add(btnClose, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 30, -1, -1));
 
         btnClear.setText("Clear");
         btnClear.addActionListener(new java.awt.event.ActionListener() {
@@ -293,7 +293,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnClearActionPerformed(evt);
             }
         });
-        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 270, -1, -1));
+        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, -1, -1));
 
         btnAddToCart.setText("Add to Cart");
         btnAddToCart.addActionListener(new java.awt.event.ActionListener() {
@@ -301,7 +301,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnAddToCartActionPerformed(evt);
             }
         });
-        getContentPane().add(btnAddToCart, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 270, -1, -1));
+        getContentPane().add(btnAddToCart, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 240, -1, -1));
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -318,13 +318,13 @@ public class PlaceOrder extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(jTable2);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(812, 310, 460, 270));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 290, 410, 180));
 
         jLabel13.setText("Grand Total Rs");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 640, 90, -1));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 510, 90, -1));
 
         lblGrandTotal.setText("00");
-        getContentPane().add(lblGrandTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 640, 30, -1));
+        getContentPane().add(lblGrandTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 510, 30, -1));
 
         btnGenerateBillPrint.setText("Generate Bill and Print");
         btnGenerateBillPrint.addActionListener(new java.awt.event.ActionListener() {
@@ -332,10 +332,10 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnGenerateBillPrintActionPerformed(evt);
             }
         });
-        getContentPane().add(btnGenerateBillPrint, new org.netbeans.lib.awtextra.AbsoluteConstraints(1125, 630, 160, 30));
+        getContentPane().add(btnGenerateBillPrint, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 500, 160, 30));
 
         lblBillId.setText("--");
-        getContentPane().add(lblBillId, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 110, -1, -1));
+        getContentPane().add(lblBillId, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
